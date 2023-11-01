@@ -613,6 +613,7 @@ def load_command_table(self, _):
         g.custom_command('decompile-params', 'decompileparams_bicep_file')
         g.custom_command('restore', 'restore_bicep_file')
         g.custom_command('publish', 'publish_bicep_file')
+        g.custom_command('publish-type', 'publish_type_file')
         g.custom_command('version', 'show_bicep_cli_version')
         g.custom_command('list-versions', 'list_bicep_cli_versions')
         g.custom_command('generate-params', 'generate_params_file')
